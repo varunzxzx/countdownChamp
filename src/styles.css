@@ -1,0 +1,63 @@
+* {
+  padding: 0;
+  margin: 0;
+  color: black;
+}
+
+body {
+  background: #F7F7F7;
+}
+
+#root {
+  width: 70%;
+  margin: 10% auto;
+  text-align: center;
+}
+
+.row {
+  width: 60%;
+  margin: 20px auto;
+}
+
+.form{
+  margin: auto;
+  width: 90%;
+}
+
+input {
+  outline: none;
+  padding: 10px;
+  font-size: 1.5em;
+  box-sizing: border-box;
+  border-color: black;
+  height: 100%;
+}
+
+button {
+  margin: 5px;
+  margin-left: 8px;
+  padding: 9px;
+  border: 2px solid black;
+  background: black;
+  color: white;
+  outline: none;
+  transition: all 0.35s;
+  text-transform: uppercase;
+  padding-top: 12px;
+  box-sizing: border-box;
+  letter-spacing: 1px;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+button:hover {
+  background: white;
+  border: 2px solid black;
+  color: black;
+}
+
+.days, .hours, .minutes, .seconds{
+  display : inline;
+  font-size: 20px;
+  padding: 0;
+}
